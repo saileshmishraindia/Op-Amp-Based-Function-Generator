@@ -6,9 +6,9 @@ This project implements a **precision analog function generator** using multiple
 
 ## Table of Contents
 
-- [Project Objective](#project-objective)  
+- [Objective](#objective)  
 - [System Block Diagram](#system-block-diagram)
-  - [A Typical Application of LT1498](#A-Typical-Application-of-LT1498)     
+  - [A Typical Application of LT1498](#a-typical-application-of-lT1498)     
 - [Detailed Circuit Description](#detailed-circuit-description)  
   - [Stage 1: Square Wave Generator](#stage-1-square-wave-generator)  
   - [Stage 2: Triangle Wave Generator](#stage-2-triangle-wave-generator)  
