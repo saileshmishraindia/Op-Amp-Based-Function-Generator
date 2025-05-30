@@ -1,4 +1,4 @@
-# FUNCTION GENERATOR CIRCUIT USING LT1498 OP-AMP
+# FUNCTION GENERATOR USING LT1498 OP-AMP
 
 ## Overview
 
@@ -81,6 +81,10 @@ The entire circuit is modeled in SPICE using `.tran` simulation for transient an
   - `Vsin`: Shaped sine wave
 
 Simulation confirms waveform purity, timing accuracy, and conversion consistency.
+
+![Function Generator Output](Output.png)
+
+<p align="center"><strong>Figure 1: Output Waveform of Op-Amp Based Function Generator</strong></p>
 
 ## Performance Highlights
 
