@@ -78,6 +78,9 @@ This project implements a **precision analog function generator** using multiple
 - **Oscillation Frequency:**  
   Set by RC time constant in U4’s feedback path : $f = \frac{1}{2 \cdot R \cdot C}$
 
+
+
+
 ## SPICE Netlist and Simulation
 
 The entire circuit is modeled in SPICE using `.tran` simulation for transient analysis.
