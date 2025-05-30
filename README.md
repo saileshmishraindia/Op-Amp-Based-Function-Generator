@@ -32,6 +32,14 @@ This project implements a **precision analog function generator** using multiple
 
 <p align="center"><strong>Figure 1: Op-Amp Based Function Generator</strong></p>
 
+![A Typical Application of LT1498 : Single Supply 100KHz 4th Order Butterworth Filter](Typical_appl_LT1498.png)
+
+<p align="center"><strong>Figure 2 : Single Supply 100KHz 4th Order Butterworth Filter</strong></p>
+
+![Gain Plot of Single Supply 100KHz 4th Order Butterworth Filter](LT1498_Gain_plot.png)
+
+<p align="center"><strong>Figure 3 : Gain Plot of Single Supply 100KHz 4th Order Butterworth Filter</strong></p>
+
 ## Detailed Circuit Description
 
 ### Stage 1: Square Wave Generator
