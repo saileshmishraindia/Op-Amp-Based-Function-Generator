@@ -7,7 +7,8 @@ This project implements a **precision analog function generator** using multiple
 ## Table of Contents
 
 - [Project Objective](#project-objective)  
-- [System Block Diagram](#system-block-diagram)  
+- [System Block Diagram](#system-block-diagram)
+  - [A Typical Application of LT1498](#A-Typical-Application-of-LT1498)     
 - [Detailed Circuit Description](#detailed-circuit-description)  
   - [Stage 1: Square Wave Generator](#stage-1-square-wave-generator)  
   - [Stage 2: Triangle Wave Generator](#stage-2-triangle-wave-generator)  
@@ -31,6 +32,8 @@ This project implements a **precision analog function generator** using multiple
 ![Function Generator Block Diagram](Block_Diagram.png)
 
 <p align="center"><strong>Figure 1: Op-Amp Based Function Generator</strong></p>
+
+#### A Typical Application of LT1498 : Single Supply 100KHz 4th Order Butterworth Filter : - 
 
 ![A Typical Application of LT1498 : Single Supply 100KHz 4th Order Butterworth Filter](Typical_appl_LT1498.png)
 
@@ -66,16 +69,17 @@ This project implements a **precision analog function generator** using multiple
 ## Mathematical Analysis and Waveform Theory
 
 - **Square-to-Triangle Integration:**  
-  Triangle slope \( = \frac{V_{peak}}{RC} \). R and C are tuned to get desired frequency and amplitude.
+  Triangle slope $= \frac{V_{peak}}{RC}$. R and C are tuned to get desired frequency and amplitude.
+
 
 - **Triangle-to-Sine Shaping:**  
   Uses piecewise-linear approximation of sine using non-linear elements and passive shaping.
 
 - **Oscillation Frequency:**  
   Set by RC time constant in U4’s feedback path:
-  $$
-  f = \frac{1}{2 \cdot R \cdot C}
-  $$
+$$
+f = \frac{1}{2 \cdot R \cdot C}
+$$
 
 ## SPICE Netlist and Simulation
 
@@ -92,7 +96,7 @@ Simulation confirms waveform purity, timing accuracy, and conversion consistency
 
 ![Function Generator Output](Output.png)
 
-<p align="center"><strong>Figure 1: Output Waveform of Op-Amp Based Function Generator</strong></p>
+<p align="center"><strong>Figure 4 : Output Waveform of Op-Amp Based Function Generator</strong></p>
 
 ## Performance Highlights
 
