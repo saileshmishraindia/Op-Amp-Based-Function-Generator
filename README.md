@@ -20,7 +20,7 @@ This project implements a **precision analog function generator** using multiple
 - [Conclusion](#conclusion)  
 - [References](#references)
 
-## Project Objective
+## Objective
 
 - Design a **waveform generation system** using op-amp-based integrators and shaping circuits.  
 - Generate **low-distortion sine, triangle, and square waves** using discrete analog components.  
