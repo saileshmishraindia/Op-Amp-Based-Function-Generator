@@ -76,10 +76,7 @@ This project implements a **precision analog function generator** using multiple
   Uses piecewise-linear approximation of sine using non-linear elements and passive shaping.
 
 - **Oscillation Frequency:**  
-  Set by RC time constant in U4’s feedback path:
-$$
-f = \frac{1}{2 \cdot R \cdot C}
-$$
+  Set by RC time constant in U4’s feedback path : $f = \frac{1}{2 \cdot R \cdot C}$
 
 ## SPICE Netlist and Simulation
 
