@@ -1,4 +1,4 @@
-# FUNCTION GENERATOR CIRCUIT
+# FUNCTION GENERATOR CIRCUIT USING LT1498 OP-AMP
 
 ## Overview
 
@@ -30,7 +30,7 @@ This project implements a **precision analog function generator** using multiple
 
 ![Function Generator Block Diagram](Block_Diagram.png)
 
-<p align="center"><strong>Figure 1: Multi-stage function generator architecture</strong></p>
+<p align="center"><strong>Figure 1: Op-Amp Based Function Generator</strong></p>
 
 ## Detailed Circuit Description
 
@@ -102,11 +102,8 @@ This project demonstrates a powerful analog technique to generate **precision wa
 
 ## References
 
-- Linear Technology, [LT1498 Datasheet](LT1498.pdf)  
+- Linear Technology, [LT1498 Datasheet](14989fg.pdf)  
 - *Art of Electronics*, Horowitz & Hill  
 - Texas Instruments, [Waveform Generator Application Notes](TI_App_Note.pdf)  
-- SPICE Netlist: [function_gen.cir](function_gen.cir)
-
----
 
 **Shape signals. Shape innovation. 🌀⚡📡**
