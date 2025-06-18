@@ -122,4 +122,4 @@ This project demonstrates a powerful analog technique to generate **precision wa
 - *Art of Electronics*, Horowitz & Hill  
 - Texas Instruments, [Waveform Generator Application Notes](TI_App_Note.pdf)  
 
-**Shape signals. Shape innovation. 🌀⚡📡**
+
